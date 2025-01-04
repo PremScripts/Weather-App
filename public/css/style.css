@@ -1,0 +1,132 @@
+h1{
+    color:black;
+    /* background-color: black; */
+}
+img{
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+}
+/* Navigation Container */
+div {
+    background-color: #333; /* Dark background for contrast */
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Navigation Links */
+div a {
+    color: white; /* White text for visibility */
+    text-decoration: none; /* Remove underline */
+    margin: 0 15px; /* Spacing between links */
+    font-size: 1.1rem; /* Slightly larger font size */
+    font-weight: bold;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    padding: 8px 15px; /* Add padding for better clickability */
+    border-radius: 4px; /* Rounded corners */
+}
+
+/* Hover effect for links */
+div a:hover {
+    color: #333; /* Dark text on hover */
+    background-color: #f4f4f4; /* Light background for hover */
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+input{
+    width: 20rem;
+    height:2rem;
+}
+/* General reset */
+body, h1, form, input, button, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Header and Footer partials */
+header, footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+/* Main heading */
+h1 {
+    margin: 20px 0;
+    font-size: 2rem;
+    color: #444;
+}
+
+/* Form styling */
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Input styling */
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Paragraphs for messages */
+p {
+    margin: 10px 0;
+    font-size: 0.9rem;
+    color: #555;
+}
+
+/* Image styling */
+img {
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
